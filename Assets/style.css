@@ -1,0 +1,90 @@
+body {
+    background: rgb(141, 136, 230);
+    background: linear-gradient(90deg, rgba(141, 136, 230, 1) 0%, rgba(174, 174, 231, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    background-color: white;
+}
+
+.form-content {
+    padding: 70px;
+}
+
+.input-inside {
+    margin-bottom: 15px;
+}
+
+.input-inside2 {
+    margin-bottom: 7px;
+}
+
+.login {
+    width: 406px;
+    height: 50px;
+    font-size: larger;
+    margin-top: 25px;
+    background: rgb(141, 136, 230);
+    background: linear-gradient(90deg, rgba(141, 136, 230, 1) 0%, rgba(174, 174, 231, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border: 0;
+    color: white;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid rgb(56, 56, 56);
+    border-collapse: collapse
+}
+
+.table {
+    padding: 100px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+table{
+    width: 80%;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 15px;
+}
+.edit-btn , .delete-btn{
+    background: #7171d1;
+    padding: 7px 13px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.delete-btn{
+    background: #f75a82;
+}
